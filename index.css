@@ -1,0 +1,26 @@
+body{
+    background-color: #5DE0E6;
+    color: #5271FF;
+}
+
+.tabelaLogin{
+    background-color: white;
+    padding: 34px;
+    
+    
+}
+.page{
+    display: flex;
+    justify-content: center;
+   
+}
+
+input,button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button{]
+width: 50px;
+
+}
