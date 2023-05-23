@@ -7,9 +7,8 @@ body{
 }
 
 .tabelaLogin{
-    background-color: white;
+    background-image: linear-gradient(to right, #F0EDA8 , #FFA9F9);
     padding: 34px;
-    
     
 }
 .page{

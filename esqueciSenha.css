@@ -1,0 +1,20 @@
+body{
+    background-image: url("img/background/background-origin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.tabelaLogin{
+    background-image: linear-gradient(to right, #F0EDA8 , #FFA9F9);
+    padding: 34px;
+    
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
