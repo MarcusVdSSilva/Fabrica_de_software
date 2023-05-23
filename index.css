@@ -10,13 +10,14 @@ body{
 .tabelaLogin{
     background-image: linear-gradient(to right, #F0EDA8 , #FFA9F9);
     padding: 34px;
-    
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 3px 2px 3px #b97bb598;
 }
 .page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     height: 100vh;
+    width: 450px;
    
 }
 
