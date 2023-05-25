@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 body{
     background-image: url("img/background/background-origin.png");
     background-size: cover;
@@ -7,26 +8,46 @@ body{
 
 }
 
-.tabelaLogin{
-    background-image: linear-gradient(to right, #F0EDA8 , #FFA9F9);
-    padding: 34px;
-    border-radius: 5%;
-    text-align: center;
-    box-shadow: 3px 2px 3px #b97bb598;
-}
-.page{
+form{
+    background-image: linear-gradient(to right, #F0EDA8 25% , #FFA9F9);
+    display: block;
+    width: 500px;
+    height: 500px;
     margin: auto;
-    height: 100vh;
-    width: 450px;
-   
+    border-radius: 10px;
+    padding: 50px 0px; 
 }
 
-input,button{
-    padding: 10px;
-    border-radius: 5px;
+.cabecario{
+    text-align: center;
+    
+}
+
+h4{
+    padding: 0px 0px 25px 0px;
+}
+
+.areaDeLogin{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+input, button{
+    border-radius: 20px;
+    padding: 10px 60px;
+
 }
 
 button{
-width: 100px;
-
+    padding: 10px 95px;
+    border-radius: 10px;
+    
 }
+.linkEsqueciSenha{
+    display: block;
+    padding: 0px 135px 0px 0px;
+}
+hr{
+    display: block;
+    width: 90%;
+}
+
