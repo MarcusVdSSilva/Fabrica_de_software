@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Roboto & family= Roboto+Mono & display=swap ' );
+
+:root{
+    --font-padrao: 'Roboto Mono', monoespaçado;
+    --font-labelbotao: 'Roboto', sem serifa;
+
+    --inidegradetable: #FFF7AE;
+    --fimdegradetable: #CE90F6;
+    --inidegradelabelbotao:#FF3231;
+    --fimdegradelabelbotao:#FF904C;
+    --iniborderinput: #ff3131;
+    --fimborderinput: #ff914d;
+    --textocolorido: #DD4422;
+    --textolabel: #8F8E8E;
+}
+
+body{
+    background: black url(../img/background/background-origin.png) center center no-repeat fixed;
+    background-size: cover;
+
+}
+
+body a:hover{
+    text-decoration: underline;   
+   }
+
+main{
+    background-image: linear-gradient(to right, var(--inidegradetable), var(--fimdegradetable));
+    display: block;
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+.cabecario{
+color: var(--textocolorido);
+text-align: center;
+margin-bottom: 35px;
+}
+
+.cabecario h4{
+    font-weight: lighter;
+}
+
+.cabecario a{
+    color: var(--textocolorido);
+    text-decoration: none;
+}
+
+.areaDeRegistro{
+color: var(--textolabel);
+text-align: center;
+}
+
+.areaDeRegistro label{
+    display: inline-block;
+    margin: 15px 140px 5px 0px;
+    
+}
+
+.areaDeRegistro input, button{
+    display: inline-block;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.555);
+    font-size: 20px;
+}
+
+.areaDeRegistro button{
+    margin-top: 45px;
+    border-radius: 10px;
+    font-size: 1em;
+    width: 190px;
+}
