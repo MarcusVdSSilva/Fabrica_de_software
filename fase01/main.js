@@ -109,7 +109,7 @@ document.addEventListener("click", e => {
                 dinossaurDecoration.classList.add('comboDinossaurOn');
                 pontos += 4;
             } else {
-                pontos++;
+                pontos+=10;
             }
 
         } else {
