@@ -10,10 +10,11 @@ body{
 }
 
 .biomaInicial{
-    background: black url(../img/biomas/1.png) center center no-repeat scroll;
+    background: black url(../img/biomas/1.png) center center no-repeat fixed;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
+    width: 100svw;
+    
 }
 
 .biomaInicial button{

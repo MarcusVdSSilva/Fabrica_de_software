@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 :root{
-    --font-padrao: 'Roboto Mono', monoespaçado;
-    --font-labelbotao: 'Roboto', sem serifa;
+    --font-padrao: 'Roboto', sans-serif;
+    --font-labelbotao: 'Roboto', sans-serif;
 
     --inidegradetable: #FFF7AE;
     --fimdegradetable: #CE90F6;
@@ -16,7 +16,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-labelbotao);
     background: black url(../img/background/background-origin.png) center center no-repeat fixed;
     background-size: cover;
     position: relative;
