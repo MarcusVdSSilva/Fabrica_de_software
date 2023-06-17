@@ -40,11 +40,11 @@ text-align: center;
 color: var(--textocolorido);
 }
 
-.areaDeEsqSenha{
+form{
     text-align: center;
 }
 
-.areaDeEsqSenha label{
+form label{
     display: inline-block;
     color: var(--textolabel);
     margin-top: 25px;
@@ -52,7 +52,7 @@ color: var(--textocolorido);
     
 }
 
-.areaDeEsqSenha input, button{
+form input, button{
     display: inline-block;
     height: 40px;
     width: 250px;
@@ -62,7 +62,7 @@ color: var(--textocolorido);
     
 }
 
-.areaDeEsqSenha button{
+form button{
     margin-top: 20px;
     font-size: 16px;
     border-radius: 10px;

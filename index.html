@@ -17,19 +17,30 @@
         <main>
             
                 
-                <div class="cabecario">
-                    <h1>Conecte-se</h1>
-                    <h4>Não é registrado? <a href="/html/telaRegistro.html"> <strong>Cadastre-se</strong> </a></h4>
-                    <hr>
-                </div>
-                <form class="areaDeLogin">
-                    <label for="username,Email" class="label">Por favor, insira seu nome:</label><br>
-                    <input type="text" name="username/Email"><br><br>
-                    <label for="password" class="label">Por favor, insira sua senha:</label><br>
-                    <input type="password" name="password"><br>
-                    <a href="/html/esqueciSenha.html">Esqueci minha senha?</a><br>
-                    <button type="submit">Logar</button>
+                <div class="telaLogin">
+
+                    <div class="cabecario">
+
+                        <h1>Conecte-se</h1>
+
+                        <h4>Não é registrado? <a href="/html/telaRegistro.html"> <strong>Cadastre-se</strong> </a></h4>
+                        <hr>
+
+                    </div>
+                    <form class="areaDeLogin" action="../php/login.php" method="post" autocomplete="on">
+
+                        <label for="user/email" class="label">Por favor, insira seu nome:</label><br>
+                        <input type="text" name="username/Email" id="user/email" required autocomplete="username"><br><br>
+                        
+                        <label for="password1" class="label">Por favor, insira sua senha:</label><br>
+                        <input type="password" name="password" id="password1" required autocomplete="current-password"><br>
+
+                        <a href="/html/esqueciSenha.html">Esqueci minha senha?</a><br>
+                        
+                        <button type="submit">Logar</button>
+                    
                     </form>
+                </div>
                 
         </main>
 

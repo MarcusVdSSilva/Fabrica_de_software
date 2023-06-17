@@ -9,25 +9,48 @@
     <link rel="stylesheet" href="../css/telaRegistro.css">
 </head>
 <body>
-    
+
+    <header>
+
+    </header>
+
     <main>
         
-        <div class="cabecario">
-            <h1>Criar nova conta</h1>
-            <h4>Já é registrado? <a href="../index.html"><strong>Login</strong></a></h4>
-            <hr>
+        <div class="telaRegistro">
+            <div class="cabecario">
+                <h1>Criar nova conta</h1>
+                <h4>Já é registrado? <a href="../index.html"><strong>Login</strong></a></h4>
+                <hr>
+            </div>
+
+            <form class="areaDeRegistro" action="../php/cadastro.php" method="post" autocomplete="on">
+
+                <label for="username1">Insira seu nome:*</label><br>
+                <input type="text" name="username" id="username1" required autocomplete="username"><br>
+
+                <label for="email1">Insira seu E-mail:*</label><br>
+                <input type="text" name="email" id="email1" required autocomplete="email"><br>
+                
+                <label for="password1">Insira sua senha:*</label><br>
+                <input type="password" name="password" id="password1" required autocomplete="new-password"><br>
+                
+                <!--<div class="checkbox">
+                    <input type="radio" name="conta" id="professor">
+                    <label for="professor">Professor</label>
+
+                    <input type="radio" name="conta" id="aluno">
+                    <label for="aluno">Aluno</label>
+                </div> -->
+
+                <button type="submit">Cadastre-se</button>
+            </form>
         </div>
-        <form class="areaDeRegistro">
-            <label for="username">Insira seu nome:</label><br>
-            <input type="text" name="username"><br>
-            <label for="Email">Insira seu E-mail:</label><br>
-            <input type="text" name="username/Email"><br>
-            <label for="password">Insira sua senha:</label><br>
-            <input type="password" name="password"><br>
-            <button type="submit">Cadastre-se</button>
-        </form>
     
     </main>
     
+    <footer>
+
+    </footer>
+
 </body>
 </html>

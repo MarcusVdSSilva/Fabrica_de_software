@@ -26,7 +26,7 @@ body a:hover{
     text-decoration: underline;   
    }
 
-main{
+div.telaRegistro{
     background-image: linear-gradient(to right, var(--inidegradetable), var(--fimdegradetable));
     display: block;
     width: 450px;
@@ -36,33 +36,33 @@ main{
     padding: 50px 30px;
 }
 
-.cabecario{
+div.cabecario{
 color: var(--textocolorido);
 text-align: center;
 margin-bottom: 35px;
 }
 
-.cabecario h4{
+div.cabecario h4{
     font-weight: lighter;
 }
 
-.cabecario a{
+div.cabecario a{
     color: var(--textocolorido);
     text-decoration: none;
 }
 
-.areaDeRegistro{
+form{
 color: var(--textolabel);
 text-align: center;
 }
 
-.areaDeRegistro label{
+form label{
     display: inline-block;
     margin: 15px 140px 5px 0px;
     
 }
 
-.areaDeRegistro input, button{
+form input, button{
     display: inline-block;
     height: 40px;
     width: 250px;
@@ -71,14 +71,14 @@ text-align: center;
     font-size: 20px;
 }
 
-.areaDeRegistro input{
+form input{
     background-image: linear-gradient(to right, var(--iniborderinput),var(--fimborderinput) 80%);
     color: white;
     font-size: 1em;
     padding: 0px 0px 0px 15px;
 }
 
-.areaDeRegistro button{
+form button{
     margin-top: 45px;
     border-radius: 10px;
     font-size: 1em;
@@ -87,3 +87,13 @@ text-align: center;
     color: white;
 }
 
+/*.checkbox input{
+    height:20px; 
+}
+
+.checkbox label{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+
+}*/
