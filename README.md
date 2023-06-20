@@ -9,4 +9,6 @@ Feito e realizado por:
 Marcelo
 Marcus
 Matheus
+
+Utilizar xampp para visualizar funcionando.
 ----------------------------------------------------------------------------------------------------------------------------------

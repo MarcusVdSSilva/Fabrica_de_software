@@ -1,3 +1,9 @@
+<?php
+session_start();
+if($_SESSION['logado'] == true){
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -47,3 +53,9 @@
     <script src="./main.js"></script>
 </body>
 </html>
+
+<?php
+}else{
+    header('Location: ../index.html');
+}
+?>

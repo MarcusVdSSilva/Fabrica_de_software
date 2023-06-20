@@ -15,7 +15,7 @@ create table `alunos`(
 `username` varchar(50) not null unique,
 `email` varchar(100) not null unique,
 `password` varchar(50) not null,
-`pontuacao` varchar(100) not null
+`pontuacao` varchar(100) default 0
 );
 
 create table `turmas`(

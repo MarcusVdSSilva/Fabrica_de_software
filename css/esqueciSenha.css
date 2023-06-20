@@ -23,7 +23,7 @@ body{
     height: 96vh;
 }
 
-main{
+.areaEscSenha{
     background-image: linear-gradient(to right, var(--inidegradetable), var(--fimdegradetable));
     width: 450px;
     height: 300px;

@@ -78,7 +78,7 @@ body a:hover{
 }
 
 .areaDeLogin button{
-    margin: 50px 0px 0px 55px;
+    margin: 50px 0px 0px 0px;
     border-radius: 10px;
     color: black;
     font-size: 1em;
